@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeekX - A melhor busca da WEB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header> 
+            <article class="logo">
+                <figure>
+                    <img src="./img/Logo wikipedia estilizado.png" width="100"/>
+                    <figcaption>WebKX</figcaption>
+                </figure>
+            </article>
+        </header>
+
+        <main>  
+            <section class="main-content">
+                <section class="content">
+                    <aside class="sidebar">
+                        <nav>
+                            <h2>Tecnologias</h2>
+                            <ul>
+                                <li><a href="./index.html">HTML</a></li>
+                                <li><a href="./javascript.html">Javascript</a></li>
+                                <li><a href="./react.html">React</a></li>
+                                <li><a href="./angular.html">Angular</a></li>
+                                <li><a href="./design.html">Design - UX</a></li>
+                            </ul>
+                        </nav>
+                    </aside>
+
+                    <div class="main">
+                            <h1>Tudo sobre CSS</h1>
+                            <p>
+                                <strong>Cascading Style Sheets</strong> (abreviado <strong>CSS</strong>) 
+                                é um mecanismo para adicionar estilos (cores, fontes, espaçamento, etc.) a 
+                                uma página web,[1] aplicado diretamente nas tags HTML ou 
+                                ficar contido dentro das tags STILE. Também é possível, 
+                                adicionar estilos adicionando um link para um arquivo CSS que 
+                                contém os estilos. Assim, quando se quiser alterar a aparência 
+                                dos documentos vinculados a este arquivo CSS, basta modifica-lo.
+                            </p>
+
+                            <h2 id="sintaxe">Sintaxe</h2>
+                            <p>
+                                CSS tem uma sintaxe simples, e utiliza uma série de palavras 
+                                em inglês para especificar os nomes de diferentes propriedade 
+                                de estilo de uma página.
+                            </p>
+                            <p>
+                                Uma instrução CSS consiste em um <strong>seletor</strong> e um <strong>bloco de 
+                                declaração.</strong> Cada declaração contém uma <strong>propriedade</strong> 
+                                e um <strong>valor</strong>, separados por dois pontos (:). Cada declaração é 
+                                separada por ponto e vírgula (;).
+                            </p>
+                            <p>
+                                Em CSS, seletores são usados para declarar a quais elementos de marcação um 
+                                estilo se aplica, uma espécie de expressão correspondente. Os seletores 
+                                podem ser aplicados a todos os elementos de um tipo específico, ou apenas 
+                                aqueles elementos que correspondam a um determinado atributo; elementos 
+                                podem ser combinados, dependendo de como eles são colocados em relação 
+                                uns aos outros no código de marcação, ou como eles estão aninhados dentro 
+                                do objeto de documento modelo.
+                            </p>
+                            <p>
+                                Pseudoclasse é outra forma de especificação usada em CSS para identificar os 
+                                elementos de marcação, e, em alguns casos, ações específicas de usuário para 
+                                o qual um bloco de declaração especial se aplica. Um exemplo frequentemente 
+                                utilizado é o :hover pseudoclasse que se aplica um estilo apenas quando o 
+                                usuário 'aponta para' o elemento visível, normalmente, mantendo o cursor do 
+                                mouse sobre ele. Isto é anexado a um seletor como em a:hover ou 
+                                #elementid:hover. Outras pseudoclasses e pseudoelementos são, p. ex., 
+                                :first-line, :visited ou :before. Uma pseudoclasse especial é :lang(c), "c"
+                            </p>
+                            <h2 id="seletores">Seletores</h2>
+                            <p>
+                                Definição de estilo é um conjunto de propriedades visuais para um elemento, 
+                                o CSS define regras que fazem as definições de estilo casarem com um elemento 
+                                ou grupo de elemento, o documento pode conter um bloco de CSS num elemento 
+                                style ou usando o elemento link apontando para um arquivo externo que contenha 
+                                o bloco CSS. Para uso com o CSS, foi criado o atributo class que todo elemento 
+                                pode conter. As regras de casamento para o CSS são chamadas de seletores, 
+                                uma definição de estilo pode ser casada com um seletor ou um grupo de 
+                                seletores separados por vírgula, um seletor pode casar um elemento por:
+                            </p>
+                            <section class="tabela">
+                                <ul>
+                                    <li><strong>elemento do tipo :</strong> element_name 
+                                        { style definition; }</li>
+                                    <li><strong>elemento do tipo com a classe :</strong> 
+                                        element_name.class_name 
+                                            { style definition; }</li>
+                                    <li><strong>todos os elementos com a classe :</strong> .class_name 
+                                        { style definition; }</li>
+                                    <li><strong>o elemento com o id :</strong> #id_of_element 
+                                        { style definition; }</li>
+                                    <li><strong>casamento de um grupo :</strong> element_name_01, 
+                                        element_name_02, .class_name { style definition; }</li>
+                                </ul>
+                            </section>
+                            <p>
+                                É importante notar que nenhum navegador suporta igualmente as definições 
+                                do CSS. Desta forma, o web designer deve sempre testar suas folhas de 
+                                estilo em navegadores de vários fabricantes, e preferencialmente em mais 
+                                de uma versão, para se certificar de que o que foi codificado realmente 
+                                seja apresentado da forma desejada.
+                            </p>
+                            
+                            <h2 id="frameworks">Frameworks</h2>
+                            <p>
+                                Os frameworks CSS são bibliotecas pré-preparadas destinadas a permitir 
+                                um estilo mais fácil e mais compatível com os padrões de páginas da web 
+                                usando a linguagem Cascading Style Sheets. Os frameworks CSS incluem 
+                                Blueprint, Bootstrap, Cascade Framework, Foundation e Materialize. 
+                                Assim como as bibliotecas de linguagem de programação e script, os 
+                                frameworks CSS são geralmente incorporados como planilhas .css externas 
+                                referenciadas no HTML <head>. Eles fornecem uma série de opções prontas 
+                                para projetar e fazer o layout da página da web. Embora muitos desses 
+                                frameworks tenham sido publicados, alguns autores os usam principalmente 
+                                para prototipagem rápida, ou para aprender com, e preferem 'criar' CSS 
+                                apropriado para cada site publicado sem a sobrecarga de design, manutenção 
+                                e download de muitos recursos não utilizados no estilo do site[4].
+                            </p>
+
+                            <h2 id="metodologias">Metodologias de design</h2>
+                            <p>
+                                Conforme o tamanho dos recursos CSS usados em um projeto aumenta, uma equipe 
+                                de desenvolvimento geralmente precisa decidir sobre uma metodologia de design 
+                                comum para mantê-los organizados. Os objetivos são facilidade de 
+                                desenvolvimento, facilidade de colaboração durante o desenvolvimento 
+                                e desempenho das folhas de estilo implementadas no navegador. As metodologias 
+                                populares incluem OOCSS (CSS orientado a objeto), ACSS (CSS atômico), oCSS 
+                                (folha de estilo em cascata orgânica), SMACSS (arquitetura escalável e 
+                                modular para CSS) e BEM (bloco, elemento, modificador)[5].
+                            </p>
+
+                            <h2 id="suporte">Suporte</h2>
+                            <p>
+                                Com a variação de atualizações dos navegadores, o suporte ao CSS pode variar. 
+                                A interpretação dos navegadores pode ser avaliada com o teste Acid2, que se 
+                                tornou uma forma base de revelar quão eficiente é o suporte de CSS, fazendo 
+                                com que a nova versão em desenvolvimento do Firefox seja totalmente compatível 
+                                a ele, assim como o Opera já é. O Doctype informado, ou a ausência dele, 
+                                determina o quirks mode ou o strict mode, modificando o modo como o CSS é 
+                                interpretado e a página desenhada.
+                            </p>
+                    </div>
+
+                    <article class="anchors">
+                        <asside>
+                            <h2>Neste Artigo</h2>
+                            <ul>
+                                <li><a href="#sintaxe">Sintaxe</a></li>
+                                <li><a href="#seletores">Seletores</a></li>
+                                <li><a href="#frameworks">Frameworks</a></li>
+                                <li><a href="#metodologias">Metodologias</a></li>
+                                <li><a href="#suporte">Suporte</a></li>
+                            </ul>
+                        </asside>
+                    </article>
+                </section>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <h4><strong>Todos os direitos reservados - WebKX - - A melhor busca da WEB</strong></h4>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeekX - A melhor busca da WEB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header> 
+            <article class="logo">
+                <figure>
+                    <img src="./img/Logo wikipedia estilizado.png" width="100"/>
+                    <figcaption>WebKX</figcaption>
+                </figure>
+            </article>
+        </header>
+
+        <main>  
+            <section class="main-content">
+                <section class="content">
+                    <aside class="sidebar">
+                        <nav>
+                            <h2>Tecnologias</h2>
+                            <ul>
+                                <li><a href="./index.html">HTML</a></li>
+                                <li><a href="./javascript.html">Javascript</a></li>
+                                <li><a href="./css.html">CSS</a></li>
+                                <li><a href="./angular.html">Angular</a></li>
+                                <li><a href="./design.html">Design - UX</a></li>
+                            </ul>
+                        </nav>
+                    </aside>
+
+                    <div class="main">
+                            <h1>Tudo sobre React</h1>
+                            <p>
+                                O <strong>React</strong> (também denominado <strong>React.js ou 
+                                ReactJS</strong>) é uma biblioteca front-end JavaScript de código 
+                                aberto com foco em criar interfaces de usuário em páginas web.
+                            </p>
+
+                            <h2 id="história">História</h2>
+                            <p>
+                                Criado em 2011 pelo Facebook, com a criação de views declarativas e 
+                                baseando-se em componentes, possuía o intuito de otimizar a atualização 
+                                e a sincronização de atividades simultâneas no feed de notícias da rede 
+                                social e melhorar a manutenção de código.
+                            </p>
+                            <p>
+                                É mantido pelo Facebook, Instagram, outras empresas e uma comunidade 
+                                de desenvolvedores individuais. É utilizado nos sites da Netflix, Imgur, 
+                                Feedly, Airbnb, SeatGeek, HelloSign, Walmart e outros.
+                            </p>
+                            <p>
+                                Em 2015, o Facebook anunciou o módulo React Native, que em conjunto com 
+                                o React, possibilita o desenvolvimento de aplicativos para Android e iOS 
+                                utilizando componentes de interface de usuário nativos de ambas plataformas, 
+                                sem precisar recorrer ao HTML.
+                            </p>
+                            <p>
+                                Na pesquisa de 2018 sobre hábitos de desenvolvedores do site Stack Overflow, 
+                                o React foi a terceira biblioteca ou framework mais citado pelos usuários e 
+                                desenvolvedores profissionais, ficando atrás somente do Node.js e Angular, 
+                                respectivamente.
+                            </p>
+                            <h2 id="jsx">JSX</h2>
+                            <p>
+                                Semelhante ao HTML, o JSX é uma extensão de sintaxe para JavaScript. 
+                                Embora seu uso não seja obrigatório, a maioria dos desenvolvedores o 
+                                utiliza para descrever como a UI deveria parecer.
+                            </p>
+                            <p>
+                                Depois da compilação, as expressões em JSX se transformam em chamadas 
+                                normais de funções que retornam objetos JavaScript.
+                            </p>
+                            
+                            <h2 id="virtual">Virtual DOM</h2>
+                            <p>
+                                É uma representação virtual da interface do usuário que é armazenada em 
+                                memória e mantida em sincronia com a DOM “real”. Dessa forma, o React só 
+                                altera na verdadeiro DOM apenas o que foi modificado. Assim,  é abstraída 
+                                a manipulação de atributos, de eventos e atualização manual do DOM.
+                            </p>
+                            <p>
+                                A Virtual DOM  está associada aos elementos da biblioteca, que são objetos 
+                                representando a UI. Entretanto, o React também possui os “fibers”, que são 
+                                objetos internos que contém informações sobre a árvore de componentes e 
+                                podem ser considerados parte da Virtual DOM.
+                            </p>
+
+                            <h2 id="algoritmo">Algoritmo de Reconciliação</h2>
+                            <p>
+                                Reconciliação é o processo pelo qual o React atualiza o DOM do navegador. 
+                                A cada renderização o React retorna uma árvore de elementos diferentes. 
+                                Nesse sentido, é necessário descobrir como a interface deve ser atualizada 
+                                para estar em sincronia com a última árvore apresentada. Os conceitos por 
+                                trás deste algoritmo são a Virtual DOM e o algoritmo de diffing.
+                            </p>
+                            <p>
+                                Em toda atualização, é criado uma nova Virtual DOM e compara com a sua 
+                                versão anterior. Essa comparação ocorre pelo algoritmo de diffing. Após a 
+                                comparação ser  realizada, uma outra Virtual DOM é produzida já com as 
+                                alterações adicionadas. Por fim, o React faz a atualização da DOM “real” 
+                                no navegador com o menor número de atualizações possíveis.
+                            </p>
+                    </div>
+
+                    <article class="anchors">
+                        <asside>
+                            <h2>Neste Artigo</h2>
+                            <ul>
+                                <li><a href="#história">História</a></li>
+                                <li><a href="#jsx">JSX</a></li>
+                                <li><a href="#virtual">Virtual DOM</a></li>
+                                <li><a href="#algoritmo">Algoritmo de Reconciliação</a></li>
+                            </ul>
+                        </asside>
+                    </article>
+                </section>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <h4><strong>Todos os direitos reservados - WebKX - - A melhor busca da WEB</strong></h4>
+        </footer>
+</body>
+</html>
